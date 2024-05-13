@@ -1,4 +1,4 @@
 SELECT prodid, count(1) as cnt
-FROM purchase1
-GROUP BY prodid
+FROM purchase3
+GROUP BY prodid, user
 ORDER BY cnt desc;
